@@ -9,8 +9,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        poppins: ["Poppins"],
-        "roboto-serif": ["Roboto Serif"],
+        "eb-garamond": ["EB Garamond"],
+        "open-sans": ["Open Sans"],
       },
       fontSize: {
         10: ["10px", "12px"],
@@ -20,32 +20,20 @@ module.exports = {
         20: ["20px", "28px"],
         24: ["24px", "32px"],
         32: ["32px", "40px"],
+        40: ["40px", "48px"],
         48: ["48px", "56px"],
         56: ["56px", "64px"],
         64: ["64px", "72px"],
         72: ["72px", "80px"],
+        80: ["80px", "88px"],
         120: ["120px", "160px"],
       },
       colors: {
-        charcoal: {
-          DEFAULT: "#222222",
-          light: "#F7F8F9",
-          hover: "#000000",
-        },
-        translate: {
-          dark: "#0D0F12",
-          gray: {
-            DEFAULT: "#CEC9C6",
-            hover: "#211E1D",
-            light: "#f1faee",
-            dark: "#4C4541",
-          },
-          background: {
-            DEFAULT: "#211E1D", // dark background for sections
-          },
-          error: "#FE3F38",
-          "light-green": "#CBE7D2",
-          "light-green-hover": "#EFFCF2",
+        thq: {
+          "background-light": "#E8E8E8",
+          "background-dark": "#1A1A1A",
+          "text-light": "#F4F7E0",
+          "text-dark": "#F4F7E0",
         },
       },
     },

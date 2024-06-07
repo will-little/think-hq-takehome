@@ -1,7 +1,7 @@
 @layer base {
   body {
-    @apply font-roboto-serif text-translate-gray-dark;
-    @apply bg-translate-gray-light;
+    @apply font-open-sans;
+    @apply bg-thq-background-light;
     @apply text-sm;
   }
 }
