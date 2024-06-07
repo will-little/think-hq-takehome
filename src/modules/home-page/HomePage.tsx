@@ -15,7 +15,7 @@ const HomePage = () => {
           <span className={clsx("font-open-sans")}>
             The power of{" "}
             <span className={clsx("font-eb-garamond italic")}>
-              Collective creativity.
+              collective creativity.
             </span>
           </span>
         </div>
@@ -28,29 +28,42 @@ const HomePage = () => {
         </div>
       </div>
 
-      <div className={clsx("absolute", "z-0")}>
+      <div className={clsx("relative", "z-0")}>
         <div
           className={clsx(
-            "absolute inset-0 scale-[1.7]",
+            "absolute inset-0 scale-150",
             "bg-thq-background-dark",
             "blur-md"
           )}
         ></div>
 
-        <div className={clsx("relative", "mx-8")}>
-          <div className={clsx("flex justify-between", "text-thq-text-light")}>
-            <div className={clsx("w-4/12", "text-48")}>
-              We delve deep into understanding who they are, what motivates
-              them, what challenges they face and how complex systems and forces
-              are shaping them.
-            </div>
+        <div
+          className={clsx(
+            "relative",
+            "h-[50vh]",
+            "px-8 py-16 h-full",
+            "flex justify-around",
+            "text-thq-text-light"
+          )}
+        >
+          <p
+            className={clsx(
+              "w-5/12",
+              "text-40 font-eb-garamond italic text-right leading-relaxed"
+            )}
+          >
+            We delve deep into understanding who they are, what motivates them,
+            what challenges they face and how complex systems and forces are
+            shaping them.
+          </p>
 
-            <div className={clsx("w-4/12", "text-48")}>
-              We delve deep into understanding who they are, what motivates
-              them, what challenges they face and how complex systems and forces
-              are shaping them.
-            </div>
-          </div>
+          <p className={clsx("w-5/12", "text-20 font-light flex items-end")}>
+            Our distinctive approach fosters collaboration with people from all
+            walks of life to truly find the real creative answers to some of
+            life’s most challenging and important questions. Anchoring ourselves
+            in the principles of respect, diversity and empathy helps us get
+            there.
+          </p>
         </div>
       </div>
     </>
