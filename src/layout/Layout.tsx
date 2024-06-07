@@ -31,7 +31,7 @@ const Layout: FC<{
         {/* <meta property="og:image" content={Preview.src} /> */}
         <link rel="canonical" href={canonical} />
       </Head>
-      <NavBar solid={solidNavbar} />
+      {/* <NavBar solid={solidNavbar} /> */}
       <main className={clsx(className, "min-h-screen")}>{children}</main>
     </>
   );
