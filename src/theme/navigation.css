@@ -1,0 +1,22 @@
+@layer components {
+  .link-text {
+    @apply font-poppins;
+  }
+  .navbar-link {
+    @apply link-text;
+    @apply text-translate-gray-light;
+    @apply hover:text-translate-gray;
+  }
+  .mobilemenu-link {
+    @apply font-poppins;
+    @apply text-translate-gray-dark;
+    @apply hover:text-translate-gray-hover;
+  }
+  .navbar-dropdown {
+    @apply w-72 px-0 py-3;
+    @apply absolute top-3;
+    @apply rounded-md;
+    @apply bg-translate-gray-light hover:text-white;
+    @apply bg-translate-gray-light hover:text-white;
+  }
+}

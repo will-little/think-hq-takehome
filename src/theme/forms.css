@@ -1,0 +1,19 @@
+@layer components {
+  .input-control {
+    @apply px-4 py-2;
+    @apply bg-transparent;
+    @apply border-4 border-translate-gray-dark;
+    @apply text-translate-gray-dark;
+  }
+
+  .select-control {
+    @apply bg-transparent;
+    @apply border-4 border-translate-gray-dark;
+    @apply text-translate-gray-dark;
+  }
+
+  .form-label {
+    @apply block mb-2 text-sm font-medium;
+    @apply text-translate-gray-dark;
+  }
+}
