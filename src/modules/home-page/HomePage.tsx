@@ -11,8 +11,10 @@ function TitleAndModel() {
         )}
       >
         <span className={clsx("font-open-sans")}>
-          The power of{" "}
-          <span className={clsx("font-eb-garamond italic")}>
+          The power of
+          <span
+            className={clsx("font-eb-garamond italic", "before:content-['_']")}
+          >
             collective creativity.
           </span>
         </span>
@@ -37,7 +39,7 @@ function ArrowTextFlow() {
   return (
     <div
       className={clsx(
-        "h-auto sm:h-[50vh]",
+        "h-auto sm:h-[60vh]",
         "pt-8 pb-4 h-full px-8",
         "flex flex-col sm:flex-row",
         "gap-6 sm:gap-0",
@@ -77,7 +79,8 @@ function ArrowTextFlow() {
         className={clsx(
           "w-full sm:w-5/12",
           "text-20 font-light flex items-end",
-          "text-center sm:text-left"
+          "text-center sm:text-left",
+          "mb-0 sm:mb-20"
         )}
       >
         Our distinctive approach fosters collaboration with people from all
@@ -85,6 +88,7 @@ function ArrowTextFlow() {
         most challenging and important questions. Anchoring ourselves in the
         principles of respect, diversity and empathy helps us get there.
       </p>
+
       <div className={clsx("h-24 self-center")}>
         <svg height="83" viewBox="0 0 16 83" className="block sm:hidden">
           <path
