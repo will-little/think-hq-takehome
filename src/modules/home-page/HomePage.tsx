@@ -28,7 +28,7 @@ function TitleAndModel() {
         People and their incredible diversity are the heart and soul of
         everything we do.
       </p>
-      <div className={clsx("py-12", "aspect-square sm:aspect-[16/9]")}>
+      <div className={clsx("py-12", "aspect-square sm:aspect-[16/10]")}>
         <CanvasWrapper />
       </div>
     </>
