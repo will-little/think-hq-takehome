@@ -12,14 +12,14 @@ function TitleAndModel() {
           "text-48 sm:text-80"
         )}
       >
-        <span className={clsx("font-open-sans")}>
+        <p className={clsx("font-open-sans")}>
           The power of
           <span
             className={clsx("font-eb-garamond italic", "before:content-['_']")}
           >
             collective creativity.
           </span>
-        </span>
+        </p>
       </div>
       <p
         className={clsx(
