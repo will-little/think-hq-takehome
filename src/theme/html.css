@@ -1,6 +1,6 @@
 @layer base {
   body {
-    @apply font-open-sans;
+    @apply font-open-sans text-thq-text-dark;
     @apply bg-thq-background-light;
     @apply text-sm;
   }

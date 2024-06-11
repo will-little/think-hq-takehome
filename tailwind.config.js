@@ -30,10 +30,10 @@ module.exports = {
       },
       colors: {
         thq: {
-          "background-light": "#E8E8E8",
+          "background-light": "#F3F3F3",
           "background-dark": "#1A1A1A",
           "text-light": "#F4F7E0",
-          "text-dark": "#F4F7E0",
+          "text-dark": "#333333",
         },
       },
     },
