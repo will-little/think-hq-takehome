@@ -18,7 +18,7 @@ function TitleAndModel() {
       </div>
       <p
         className={clsx(
-          "w-full sm:w-7/12 pt-24",
+          "w-full sm:w-7/12 pt-12 sm:pt-20",
           "font-light text-24 sm:text-40"
         )}
       >
