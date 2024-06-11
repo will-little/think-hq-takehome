@@ -6,7 +6,7 @@ import MobileArrow from "./images/MobileArrow";
 function TitleAndModel() {
   return (
     <>
-      <div className={clsx("pt-[183px] w-3/4 sm:w-5/12", "text-48 sm:text-80")}>
+      <div className={clsx("pt-44 w-3/4 sm:w-5/12", "text-48 sm:text-80")}>
         <p className={clsx("font-open-sans")}>
           The power of
           <span
