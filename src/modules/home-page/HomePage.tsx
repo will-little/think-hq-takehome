@@ -39,11 +39,10 @@ function ArrowTextFlow() {
   return (
     <div
       className={clsx(
-        "h-auto sm:h-[80vh]",
-        "pt-8 pb-4 h-full px-8",
+        "h-auto sm:h-[65vh]",
+        "pt-8 pb-4 px-8",
         "flex flex-col sm:flex-row",
-        "gap-6 sm:gap-0",
-        "justify-around",
+        "gap-6 sm:gap-2 justify-around",
         "text-thq-text-light"
       )}
     >
@@ -102,14 +101,15 @@ function ArrowTextFlow() {
 
 const HomePage = () => {
   return (
-    <>
+    <div className="pb-32">
       <div className={clsx("px-8", "z-10", "relative")}>
         <TitleAndModel />
       </div>
       <div className={clsx("relative overflow-x-clip", "z-0")}>
         <div
           className={clsx(
-            "absolute inset-0 scale-125 sm:scale-150",
+            "absolute inset-0  mb-20",
+            "scale-[1.35] sm:scale-[1.65] translate-y-12 sm:translate-y-0",
             "bg-thq-background-dark",
             "blur-md"
           )}
@@ -118,7 +118,7 @@ const HomePage = () => {
           <ArrowTextFlow />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
